@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    background-image: url(rvtpered.png);
+    background-position: center; 
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.header-line{
+    margin: 0px 10px;
+    height: 500px;
+}
+
+.header-line{
+    padding-top: 40px;
+    padding-left: 140px;
+    display: flex;
+    align-items: top;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    color: #000;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.nav-item:hover{
+    color: #fffeff;
+    transition: color 0.35s linear;
+}
+
+.phone{
+    border-left: 2px solid #000;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.logo-img{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.num{
+    color: #000;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+.phone-text{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.phone{
+    display flex;
+    align-items: top;
+}
+
+.RV{
+    position: absolute;
+    top: 31px;
+    left: 125px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.teh{
+    position: absolute;
+    top: 31px;
+    left: 302px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+.box{
+    height: 350px;
+}
+
+
+
+.chat-container {
+    margin-top: 50px;
+    widht: 500px;
+    align-content: center;
+}
+
+.chat-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-height: 300px;
+    max-width: 900px;
+    overflow-y: scroll;
+    position: relative;
+    left: 300px;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+    .message p {
+        margin: 0;
+    }
+
+    .message .sender {
+        font-weight: bold;
+    }
+
+    .message .time {
+        font-size: 12px;
+        color: #888888;
+    }
+
+.chat-form {
+    display: flex;
+    margin-top: 10px;
+    max-width: 940px;
+    padding-left: 300px;
+}
+
+    .chat-form input {
+        flex: 1;
+        padding: 5px;
+        border: 10px solid #ccc;
+        border-radius: 10px;
+    }
+
+    .chat-form button {
+        padding: 5px 10px;
+        background-color: #4CAF50;
+        color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+        .chat-form button:hover {
+            background-color: #45a049;
+        }
